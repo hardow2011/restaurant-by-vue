@@ -1,0 +1,30 @@
+{
+    "items": [
+        {
+            "id": "hot-dog-a-la-plancha",
+            "name": "Hot dog a la plancha",
+            "price": 70,
+            "ingredients": [
+                "Hot dog",
+                "Lechuga"
+            ]
+        },
+        {
+            "id": "riki-con-queso",
+            "name": "Riki con queso",
+            "price": 90,
+            "ingredients": [
+                "Carne de res",
+                "Queso"
+            ]
+        },
+        {
+            "id": "carne-salada",
+            "name": "Carne Salada",
+            "price": 90,
+            "ingredients": [
+                "Carne de res"
+            ]
+        }
+    ]
+}
