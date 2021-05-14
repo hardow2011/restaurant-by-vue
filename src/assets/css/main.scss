@@ -3,5 +3,27 @@
 // Bulma Import
 @import '~bulma';
 
+$greenish-blue: hsl(194, 100%, 24%);
+$dish-card-content-max-height: 140px;
+
 body {
+    min-height: 100vw;
+}
+
+.has-text-greenish-blue {
+    color: $greenish-blue
+}
+
+.has-background-greenish-blue {
+    background-color: $greenish-blue;
+}
+
+.notification-radius {
+    border-radius: $notification-radius;
+}
+
+.dish-card .content {
+    max-height: $dish-card-content-max-height;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
