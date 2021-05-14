@@ -1,7 +1,9 @@
 {
-  "dishes": [
+  "dishCategories": [
     {
-      "Hot Dogs": [
+      "id": "hot-dogs",
+      "name": "Hot Dogs",
+      "dishes": [
         {
           "id": "hot-dog-a-la-plancha",
           "name": "Hot dog a la plancha",
@@ -18,7 +20,9 @@
       ]
     },
     {
-      "Riki Takis": [
+      "id": "riki-takis",
+      "name": "Riki Takis",
+      "dishes": [
         {
           "id": "riki-con-queso",
           "name": "Riki con queso",
@@ -35,7 +39,9 @@
       ]
     },
     {
-      "Carnes": [
+      "id": "carnes",
+      "name": "Carnes",
+      "dishes": [
         {
           "id": "carne-salada",
           "name": "Carne Salada",
