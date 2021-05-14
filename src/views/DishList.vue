@@ -20,5 +20,8 @@ export default {
       dishes: null
     }
   },
+  created() {
+    
+  },
 };
 </script>
