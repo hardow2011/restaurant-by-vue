@@ -7,7 +7,8 @@
             "ingredients": [
                 "Hot dog",
                 "Lechuga"
-            ]
+            ],
+            "images": ["https://drive.google.com/file/d/1NQH-vuhnKi62Vg0VVeYFb54KaYcL-Q2C/view?usp=sharing"]
         },
         {
             "id": "riki-con-queso",
@@ -16,7 +17,8 @@
             "ingredients": [
                 "Carne de res",
                 "Queso"
-            ]
+            ],
+            "images": ["https://drive.google.com/file/d/1DD9qRrTmxZkvbtEf2kOQFOVET62EPHjk/view?usp=sharing"]
         },
         {
             "id": "carne-salada",
@@ -24,7 +26,8 @@
             "price": 90,
             "ingredients": [
                 "Carne de res"
-            ]
+            ],
+            "images": ["https://drive.google.com/file/d/1yWb_-A369V9B_nOGuT4ya_PF3JX4kjGo/view?usp=sharing"]
         }
     ]
 }
