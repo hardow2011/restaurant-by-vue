@@ -9,7 +9,7 @@
       <div class="card-content">
         <div class="media">
           <div class="media-content has-text-left">
-            <p class="title is-4">{{ dish.name }}</p>
+            <h1 class="title is-4">{{ dish.name }}</h1>
             <p class="subtitle is-6 has-text-weight-medium">
               {{ dish.price }} RD$
             </p>
@@ -20,26 +20,52 @@
         </div>
       </div>
       <footer class="card-footer">
-        <!-- <button
-          class="button is-primary is-large modal-button"
+        <a
           data-target="modal-{{ dish.id }}"
           aria-haspopup="true"
+          href="#"
+          class="card-footer-item modal-button"
+          >Ver más</a
         >
-          Launch example modal
-        </button> -->
-        <a data-target="modal-{{ dish.id }}"
-          aria-haspopup="true" href="#" class="card-footer-item modal-button">Ver más</a>
       </footer>
     </div>
     <div id="modal-{{ dish.id }}" class="modal">
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">{{ dish.name }}</p>
+          <p class="modal-card-title"></p>
           <button class="delete" aria-label="close"></button>
         </header>
-        <section class="modal-card-body">
-          <!-- Content ... -->
+        <section class="modal-card-body has-text-left">
+          <div class="columns">
+            <div class="column">
+              <div class="block">
+                <figure class="image is-4by3">
+                  <img v-bind:src="formatedImages[0]" />
+                </figure>
+              </div>
+              <div class="block">
+                <div class="content">
+                  <p class="subtitle">Ingredientes:</p>
+                  <ul>
+                    <li
+                      v-for="(ingredient, index) in dish.ingredients"
+                      :key="index"
+                    >
+                      {{ ingredient }}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <p class="title">{{ dish.name }}</p>
+              <p class="subtitle is-6 has-text-weight-medium">
+                {{ dish.price }} RD$
+              </p>
+              <p>{{ dish.description }}</p>
+            </div>
+          </div>
         </section>
         <footer class="modal-card-foot">
           <button class="button is-success">Save changes</button>
