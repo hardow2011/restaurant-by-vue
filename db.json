@@ -4,6 +4,7 @@
             "id": "hot-dog-a-la-plancha",
             "name": "Hot dog a la plancha",
             "price": 70,
+            "description": "El perrito caliente (del inglés hot dog, ‘perro caliente’) es un alimento en forma de bocadillo que se genera con la combinación de una salchicha del tipo salchicha de Frankfurt (frankfurter) o vienesa (wiener) hervida o frita servida, en un pan con forma alargada que suele acompañarse con algún aderezo, como salsa de tomate, mostaza y cebolla."
             "ingredients": [
                 "Hot dog",
                 "Lechuga"
@@ -14,6 +15,7 @@
             "id": "riki-con-queso",
             "name": "Riki con queso",
             "price": 90,
+            "description": "Comida callejera dominicana clásica, elaborada con los ingredientes más inusuales que aportan una cantidad increíble de sabor a este sándwich único."
             "ingredients": [
                 "Carne de res",
                 "Queso"
@@ -24,6 +26,7 @@
             "id": "carne-salada",
             "name": "Carne Salada",
             "price": 90,
+            "description": "La carne curada con sal o la carne salada es la carne o pescado conservado o curado con sal. La salazón, ya sea con sal seca o salmuera, fue un método común de conservación de la carne hasta mediados del siglo XX, y se volvió menos popular después de la llegada de la refrigeración."
             "ingredients": [
                 "Carne de res"
             ],
